@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  }
+
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #275E7B;
+    text-shadow: black 5px 0 10px;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(../img/foter.jpg) left top no-repeat;
+    background-size: cover;
+}
+header:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header_cont{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15%;
+  align-items: center;
+}
+.header_cont2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dream{
+  font-family: emoji;
+  z-index: 999;
+  color: white;
+  width: 470px;
+  font-size: 50px;
+  align-items: center;
+  text-shadow: black 5px 0 10px;
+}
+
+/* header {
+    padding: 25px;
+    
+    background-color: slategray;
+    color: white;
+    height: 100;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 99;
+
+  } */
+  .web_logo{
+    height: 200px;
+    z-index: 999;
+    
+  }
+  nav.menu{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 100px;
+    
+}
+nav.menu  a {
+text-decoration: none;
+color: white; 
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+
+border-radius: 55px;
+justify-content: center;
+align-items: center;
+z-index: 999;
+}
+nav.menu a:hover{
+    border-radius: 55px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #FFCFAB 1px 0 10px;
+    }
+
+a.menu_logo {
+display: flex;
+align-items: center;
+margin-right: auto;
+text-indent: 20px;
+justify-content: center;
+align-items: center;
+filter: drop-shadow(0 0 10px #FFCFAB);
+}
+.menu_link,
+.menu_link-active{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu_link-active{
+    font-weight: bold;
+    
+    border-radius: 55px;
+    color: white;
+    animation: 2s;
+    transition: 900ms;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu_link-active:hover{
+border-radius: 55px;
+text-shadow: #FFCFAB 1px 0 10px;
+justify-content: center;
+align-items: center;
+}
+
+.cta-button {
+    padding: 20px 60px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: none;
+    color: #A38F9E;
+    cursor: pointer;
+    width: auto;
+    height: 100px;
+    border: 3px solid slategray;
+    transition: 1s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+    margin: 0 auto;
+    text-decoration: black;
+    width: 550px;
+}
+
+.cta-button a{
+    text-decoration: none;
+    color: #A38F9E;
+
+}
+
+.cta-button a:hover{
+    color: #984447;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #984447;
+    border: 5px solid slategray;
+}
+
+.maincharacter {
+    padding: 155px;
+    /* padding-bottom: 150px; */
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 120px; */
+    box-shadow: #FFCFAB 2px;
+    /* max-width: auto;
+    max-height: auto; */
+}
+
+.joelmiller{
+    max-height: auto;
+    max-width: auto;
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow(0 0 10px #FFCFAB);
+    text-shadow: #FFCFAB;
+    padding: 50px;
+    background-color: black;
+    
+    text-shadow: #FFCFAB;
+    padding: 50px;
+}
+
+
+
+.DayirHousetext{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 410px;
+  /* padding-left: 150px;
+  padding: 55px; */
+  align-items: center;
+  display: flex;
+  justify-content: baseline;
+}
+.DayirHousetext2{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 390px;
+  /* padding-left: 150px;
+  padding: 55px; */
+  align-items: center;
+  display: flex;
+  justify-content: baseline;
+}
+
+.DayirHousetext3{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 390px;
+  /* padding-left: 150px;
+  padding: 55px; */
+  align-items: center;
+  display: flex;
+  justify-content: baseline;
+}
+
+.cards_we{
+  padding: 50px;
+  padding-left: 30px;
+  display: flex;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+.card_we{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(120,119,119);
+  background: linear-gradient(90deg, rgba(120,119,119,1) 0%, rgba(22,18,17,1) 100%);
+  width: 420px;
+  height: 290px;
+  border-radius: 30px;
+  box-shadow: red 10px;
+}
+
+.card_we2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(120,119,119);
+  background: linear-gradient(90deg, rgba(120,119,119,1) 0%, rgba(22,18,17,1) 100%);
+  width: 410px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: red 10px;
+}
+
+.card_we3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(120,119,119);
+  background: linear-gradient(90deg, rgba(120,119,119,1) 0%, rgba(22,18,17,1) 100%);
+  width: 410px;
+  height: 310px;
+  border-radius: 30px;
+  box-shadow: red 10px;
+}
+
+.image_we{
+width: 50px;
+}
+
+hr{
+    Width: 85%;
+    Margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+    .swiper{
+      width: 100%;
+      height: 620px;
+      margin-bottom: 150px; 
+      border-radius: 100px;
+     
+    }
+    .swiper-slide{
+      text-align: center;
+      font-size: 18px;
+      font-family: monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img{
+      width: 100%; border-radius: 10px red;
+      object-fit: cover;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+      position: absolute;
+      right: -40px !important; 
+      left: auto;
+
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+      left: -40px !important; 
+      right: auto;
+    }
+
+.test {
+  position: relative;
+}
+
+.joelmillerslider1{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: url(../img/komnaty.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;  
+    padding: 50px;
+    background-color:rgba(0, 0, 0, .7);
+}
+
+.joelmillerslider2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: url(../img/whitebox.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;  
+    padding: 50px;
+    background-color:rgba(0, 0, 0, .7);
+}
+
+.joelmillerslider3{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: url(../img/vidkrasivy.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;  
+    padding: 50px;
+    background-color:rgba(0, 0, 0, .7);
+}
+.joelmillerslider4{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-image: url(../img/1644437319_15_daeger_club_p_neoklassika_v_interere_interer_krasivo.jpg);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  border-radius: 100px;  
+  padding: 50px;
+  background-color:rgba(0, 0, 0, .7);
+}
+.joelmillerslider5{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-image: url(../img/1644437329_17_daeger_club_p_neoklassika_v_interere_interer_krasivo.jpg);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  border-radius: 100px;  
+  padding: 50px;
+  background-color:rgba(0, 0, 0, .7);
+  
+}
+.joelmillerslider6{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-image: url(../img/komnaty4.jpg);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  border-radius: 100px;  
+  padding: 50px;
+  z-index: 999;
+  
+}
+.sound{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards_prem{
+  padding: 50px;
+  padding-left: 30px;
+  display: flex;
+  padding-right: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card_prem{
+width: 500px;
+height: 520px;
+background-color: #984447;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 25px;
+text-align: center;
+margin-left: 100px;
+margin: 50px;
+margin-bottom: 20px;
+transition: 0.5s;
+box-shadow: 5px 5px 9px 5px black;
+}
+.card_prem:hover{
+  width: 510px;
+  height: 530px;
+}
+
+.card_prem img:hover{
+  width: 510px;
+  height: 530px;
+}
+
+.card_prem_img{
+  width: 500px;
+  height: 500px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  transition: 0.5s;
+}
+
+.card_prem p {
+  /* width: 300px;
+  padding-left: 100px; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+  footer{
+    padding: 55px;
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-shadow: none;
+}
+
+.footer_left{
+display: flex;
+flex-direction: column;
+max-width: 400px;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    text-indent: 18px;
+}
+
+.footer_left p {
+    margin: 30px 0;
+}
+footer_right{
+    display: flex;
+}
+
+.footer_list{
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer_list p {
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.footer_list ul{
+   list-style: none; 
+}
+
+.footer_list ul li a{
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.footer_list ul li a:hover{
+    text-decoration: underline;
+}
+.img_footer {
+  transition: 1s;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.img_footer:hover {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 1px 1px 1px 1px #FFCFAB;
+}
+.img_footer2 {
+  transition: 1s;
+  width: 75px;
+  border-radius: 30px;
+}
+
+.img_footer2:hover {
+  width: 85px;
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 1px 1px 1px 1px #FFCFAB;
+}
